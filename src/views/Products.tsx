@@ -5,6 +5,10 @@ import { Product } from "../types";
 
 export async function loader() {
     const products = await getProducts();
+    if (!products) {
+        return {};
+    }
+
     return products;
 }
 
