@@ -49,7 +49,7 @@ export default function Products() {
                         </tr>
                     </thead>
                     <tbody>
-                        {products.map((product) => (
+                        {products?.map((product) => (
                             <ProductDetails
                                 key={product.id}
                                 product={product}
