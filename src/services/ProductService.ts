@@ -1,4 +1,4 @@
-import { safeParse, number, parse, pipe, string, transform, boolean } from "valibot";
+import { safeParse, number, parse, pipe, string, transform } from "valibot";
 import {
     DraftProductSchema,
     Product,
